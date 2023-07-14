@@ -15,7 +15,7 @@ public class SpringbootDockerMavenApplication {
 
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "Welcome to Docker image cretaion using Jenkins!!!";
+		return "Welcome to Docker image cretaion using Jenkins CICD pipeline!!!";
 	}
 
 }
